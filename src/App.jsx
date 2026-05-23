@@ -282,7 +282,7 @@ function BookingSection() {
       <div className="section-inner">
         <p className="tag">Book a visit</p>
         <h2 className="section-title">Schedule Your Walk</h2>
-        <p className="section-sub">Available Mon-Wed 9am-6pm and Thu-Fri 8am-12pm. Book 1 week ahead for standard rates. Rush bookings (8-24 hrs) +25%. Senior clients: call or text anytime - 347-457-0974</p>
+        <p className="section-sub">Available Monday-Friday · Text or email to confirm availability. Book 1 week ahead for standard rates. Rush bookings (8-24 hrs) +25%. Senior clients: call or text anytime - 347-457-0974</p>
         <div className="book-grid">
           <div>
             <Cal selected={date} onSelect={setDate} />
@@ -513,7 +513,7 @@ function AboutSection() {
             <p>Based in downtown Stamford near Mill River Park, I know these neighborhoods, trails, and dog parks inside and out.</p>
             <p>My sidekick is <strong>Bebe</strong> - an 8-month-old lab/pointer/greyhound mix with endless energy. She joins me on house sits and select walks as a built-in social buddy.</p>
             <p className="quote">"Every dog gets the same care I'd give Bebe - because that's the only standard I know."</p>
-            <p>Available <strong>Mon-Wed 9am-6pm</strong> and <strong>Thu-Fri 8am-12pm</strong>. I specialize in helping senior pet owners with patient, reliable, easy-to-communicate care. Call or text anytime: <strong style={{color:C.teal}}>347-457-0974</strong></p>
+            <p>Available <strong>Monday-Friday</strong> · Text or email to confirm availability</strong>. I specialize in helping senior pet owners with patient, reliable, easy-to-communicate care. Call or text anytime: <strong style={{color:C.teal}}>347-457-0974</strong></p>
           </div>
         </div>
       </div>
@@ -693,7 +693,7 @@ function ContactSection() {
             <div className="cd"><span className="cd-icon">📞</span><strong style={{color:C.teal2}}>347-457-0974</strong> - call or text anytime</div>
             <div className="cd"><span className="cd-icon">📧</span> wagsandwigglesstamford@gmail.com</div>
             <div className="cd"><span className="cd-icon">📷</span> <a href="https://instagram.com/wagsandwigglesstamford" target="_blank" rel="noopener noreferrer" style={{color:C.teal2,fontWeight:700,textDecoration:"none"}}>@wagsandwigglesstamford</a></div>
-            <div className="cd"><span className="cd-icon">📅</span> Mon-Wed 9am-6pm · Thu-Fri 8am-12pm</div>
+            <div className="cd"><span className="cd-icon">📅</span> Monday-Friday · Text or email to confirm availability</div>
             <div className="cd"><span className="cd-icon">🐾</span> Meet and greets always free</div>
             <div className="senior-box">
               <h4>Senior Pet Care Specialist</h4>
@@ -780,7 +780,7 @@ export default function App() {
               <div className="hero-stats">
                 <div><div className="stat-num">10+</div><div className="stat-label">Years experience</div></div>
                 <div><div className="stat-num">NYC to CT</div><div className="stat-label">Tri-state background</div></div>
-                <div><div className="stat-num" style={{fontSize:"1rem",lineHeight:1.3}}>Mon-Wed 9-6<br/>Thu-Fri 9-12</div><div className="stat-label">Availability</div></div>
+                <div><div className="stat-num" style={{fontSize:"1rem",lineHeight:1.3}}>Mon-Fri</div><div className="stat-label">Availability</div></div>
                 <div><div className="stat-num" style={{fontSize:"1.2rem"}}>347-457-0974</div><div className="stat-label">Call or text anytime</div></div>
               </div>
             </div>
@@ -795,7 +795,7 @@ export default function App() {
 
         <footer className="footer">
           <p><strong style={{color:C.teal2}}>Wags and Wiggles</strong> - Stamford, CT + surrounding areas - 347-457-0974 - wagsandwigglesstamford@gmail.com</p>
-          <p style={{marginTop:4}}>Mon-Wed 9am-6pm · Thu-Fri 8am-12pm · Meet and greets always free</p><p style={{marginTop:4}}><a href="https://instagram.com/wagsandwigglesstamford" target="_blank" rel="noopener noreferrer" style={{color:C.teal2,textDecoration:"none"}}>Instagram: @wagsandwigglesstamford</a></p>
+          <p style={{marginTop:4}}>Monday-Friday · Text or email to confirm availability · Meet and greets always free</p><p style={{marginTop:4}}><a href="https://instagram.com/wagsandwigglesstamford" target="_blank" rel="noopener noreferrer" style={{color:C.teal2,textDecoration:"none"}}>Instagram: @wagsandwigglesstamford</a></p>
         </footer>
       </div>
     </>
